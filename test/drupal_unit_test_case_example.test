@@ -10,4 +10,8 @@ class TravisDrupalModuleExampleDrupalUnitTestCase extends DrupalUnitTestCase {
   public function testAssertTrue() {
     $this->assert(true);
   }
+
+  public function testAssertNotNull() {
+    $this->assertNotNull('string');
+  }
 }
